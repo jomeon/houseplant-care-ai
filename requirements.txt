@@ -1,0 +1,28 @@
+# ---- UI ----
+streamlit==1.40.0
+
+# ---- Computer Vision / CLIP ----
+torch==2.4.1
+transformers==4.45.2
+pillow==10.4.0
+
+# ---- LLM / Agent / RAG (LangChain ecosystem) ----
+langchain==0.3.7
+langchain-core==0.3.18
+langchain-openai==0.2.8
+langchain-community==0.3.7
+langchain-huggingface==0.1.2
+
+# ---- Embeddings & Vector store ----
+sentence-transformers==3.2.1
+faiss-cpu==1.9.0
+
+# ---- Web search & scraping ----
+google-search-results==2.4.2   # SerpAPI client (import name: serpapi)
+beautifulsoup4==4.12.3
+requests==2.32.3
+lxml==5.3.0
+
+# ---- Utils ----
+python-dotenv==1.0.1
+pydantic==2.9.2

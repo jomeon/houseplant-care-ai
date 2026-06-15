@@ -1,0 +1,26 @@
+# Sekrety
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Cache modeli / danych
+data/cache/
+*.faiss
+.streamlit/secrets.toml
+
+# Pliki tymczasowe uploadu
+data/uploads/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
